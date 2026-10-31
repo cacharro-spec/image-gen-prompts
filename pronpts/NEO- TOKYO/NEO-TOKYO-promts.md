@@ -34,13 +34,36 @@ The car from the reference photograph is the hero subject. Preserve its recogniz
 
 Preserve the original viewpoint, viewing direction, camera perspective, apparent vehicle size, and overall vehicle placement in the frame. Maintain the original relationship between the visible faces of the car, the roofline, and the wheels.
 
-Do not redesign, restyle, enlarge, lower, raise, stretch, or otherwise modify the vehicle. Do not add futuristic body kits, aerodynamic parts, glowing body strips, extra lights, or different wheels, and do not remove anything that is on the car in the photo. Keep the license plate area as it appears; do not invent new plate text. The result must remain unmistakably the same real car.
+Do not redesign, restyle, enlarge, lower, raise, stretch, or otherwise modify the vehicle. Do not add futuristic body kits, aerodynamic parts, glowing body strips, extra lights, or different wheels, and do not remove anything that is on the car in the photo. The result must remain unmistakably the same real car.
+
+LICENSE PLATE:
+Keep the license plate in its original position, size, shape, and angle, with its frame and mounting bolts if visible. Remove all characters from the plate — numbers, letters, Japanese characters, region names, and small marks — by filling the entire plate face with the plate's own base color as a single solid flat fill (e.g. white, yellow, green, or whatever color the original plate is). Leave no traces, outlines, embossing, or shadows of the removed characters.
+
+Render the blank plate as a real physical object, not a pasted-on patch: it keeps the same lighting, shading, reflections, and depth of field as the surrounding bodywork. Do not blur, pixelate, or mosaic the plate, do not cover it with stickers or logos, do not remove the plate itself, and do not invent any new plate text.
 
 2. PREMIUM AUTOMOTIVE PAINT AND SURFACE DETAIL
 
 Render the car's original paint color with exceptional depth and luxurious clear-coat gloss, keeping the exact hue. Show paint characteristics matching the original finish (solid, metallic, pearl, or matte), smooth and physically accurate specular reflections, subtle micro-detail, and clean highlight transitions across the curved body panels.
 
 Create long, controlled reflections of the surrounding environment and light sources that follow the actual contours of the vehicle. Preserve the distinction between each material on the car: body paint, any contrasting roof or trim color, dark glass, rubber tires, plastic trim, and metallic wheel surfaces.
+
+Make the gloss behave like a real clear coat:
+
+- Reflections are sharp and clearly defined on flat panels such as the hood, roof, and doors, and stretch and soften naturally across curved surfaces such as fenders, pillars, and bumper corners.
+- Reflections become stronger and brighter at glancing angles near the edges of panels, and weaker where the surface faces the camera directly, so the true body color reads best at the center of each panel.
+- Reflected buildings, lights, and road lines bend continuously along body lines and panel gaps, and break cleanly at door seams, never floating on top of the paint.
+- Specular highlights are small, bright, and crisp with smooth falloff, without large blown-out white areas that hide the body color.
+- The clear coat is flawless and deep, with no visible orange peel, swirl marks, dust, or scratches unless they are clearly visible in the reference photograph.
+
+Give each material its own surface response:
+
+- Glass: dark and transparent, with reflections of the environment and a faint view of the interior where the original photo shows it.
+- Headlight and taillight lenses: clear, layered, and crisp, with internal detail visible.
+- Wheels: metallic reflections matching their original finish (polished, painted, machined, or matte).
+- Tires: matte black rubber with subtle sidewall detail, never glossy.
+- Plastic trim and rubber seals: satin or matte, clearly less reflective than the paint.
+
+In rain or after rain, add realistic small water beads on the upper body surfaces and glass without hiding the paint or design details.
 
 The paint should look expensive, polished, and optically realistic — never plastic, liquid, chrome-like, or artificially airbrushed.
 
@@ -95,26 +118,52 @@ Add atmospheric depth appropriate to the weather and time of day, allowing light
 
 Keep the air around the car relatively clear. Never let fog, smoke, rain streaks, snow, or visual effects hide the vehicle's details.
 
-6. CAMERA, FRAMING, AND VISUAL HIERARCHY
+6. CAMERA, LENS, FRAMING, AND VISUAL HIERARCHY
 
 Use the original photograph as the composition reference. Keep the same viewpoint identified in step 0 without switching to a different angle.
 
-Create a cinematic 16:9 widescreen composition. Keep the vehicle as the dominant foreground subject, approximately the same size and in the same general position as in the original image.
+Shoot as if with a full-frame camera and a high-quality prime lens whose focal length matches the perspective of the original photograph, typically in the 35–85mm range. Keep the same camera height and distance as in the original. Keep vertical lines of buildings and pillars straight. Avoid wide-angle distortion that stretches the front of the car, and avoid extreme telephoto compression that flattens it.
+
+Create a cinematic 16:9 widescreen composition. Keep the vehicle as the dominant foreground subject, approximately the same size and in the same general position as in the original image. Leave slightly more open space in the direction the car is facing.
 
 Allow the futuristic architecture, roads, light sources, and distant skyline to extend into the background, creating dramatic environmental depth.
 
-Use the surrounding architecture and lighting to guide the viewer's attention back toward the car. Keep the car's body contours, lights, distinctive design elements, and glossy paint finish visually crisp and immediately recognizable.
+Use the surrounding architecture and lighting to guide the viewer's attention back toward the car. Lead the eye to the car with road lines, barriers, rows of lights, and the lines of elevated structures. Keep the car's body contours, lights, distinctive design elements, and glossy paint finish visually crisp and immediately recognizable.
 
-7. PROFESSIONAL PHOTOGRAPHIC FINISH
+Balance the car and the background:
+
+- Keep the background slightly lower in brightness and saturation than the car, so the car stands out naturally, while the city still remains rich, detailed, and atmospheric.
+- No neon sign or light source in the background should be brighter or more eye-catching than the car's own highlights and lights.
+- Do not let poles, pillars, signs, or building edges appear to grow out of the car's roof, hood, or trunk, or touch its silhouette. Leave clean separation around the outline of the car.
+- Keep the busiest and brightest parts of the background away from the car's front and roofline, so the silhouette reads clearly.
+
+7. FOCUS AND DEPTH OF FIELD
+
+Place the point of focus on the part of the car closest to the camera, such as the near headlight or front wheel (or the near taillight in a rear view).
+
+Keep the entire car in sharp focus from front to rear, including the wheels, the tire contact patches, and the road surface directly beneath and around the car. The car must never start to blur partway along its body.
+
+Let the blur change gradually with distance from the camera, like real lens optics:
+
+- Foreground (between the camera and the car): the road and any nearby objects soften gently as they get closer to the camera, and sharpen smoothly toward the car.
+- The car and its immediate surroundings: the sharpest area of the image, with crisp paint reflections, wheel detail, tire tread, and road texture.
+- Mid background (just behind the car): soft but readable, so the shapes of buildings, pillars, expressways, and Japanese signage are still recognizable.
+- Far background (distant skyline and lights): strongly and smoothly blurred, with small lights and neon turning into soft, round bokeh with clean edges.
+
+Make the transition from sharp to blurred continuous along the depth of the scene, following the road and the ground plane. Avoid blur that follows the outline of the car like a cutout, halos or glowing edges around the car, tilt-shift style bands of blur, and miniature-effect looks.
+
+Render the bokeh like a high-quality lens: smooth and creamy, without onion-ring texture, swirling, double edges, or harsh outlines. Reflections on the car's paint follow the same optics: reflections of nearby objects stay clear, and reflections of distant lights appear naturally softer.
+
+8. PROFESSIONAL PHOTOGRAPHIC FINISH
 
 Full-frame automotive photography, realistic optical behavior, natural depth of field, physically plausible global illumination, accurate reflections, premium commercial automotive lighting, subtle filmic color grading, controlled highlight roll-off, refined microcontrast, high material fidelity, and exceptionally detailed photographic realism.
 
 The final image should look like a real photograph captured on location for a high-end automotive campaign set in near-future Tokyo.
 
-Visual priority: authentic original car first, premium paint and lighting second, futuristic Japanese environment third.
+Visual priority: authentic original car first, premium paint and lighting second, sharp focus on the whole car with natural depth of field third, futuristic Japanese environment fourth.
 
 No illustration aesthetics. No obvious CGI appearance. No artificial vehicle redesign. The science-fiction feeling must emerge from the world surrounding the car, not from changing the car itself.
 
 --
 
-different car model, redesigned vehicle, altered silhouette, changed camera angle, different viewpoint, changed body color, color shift, modified body panels, exaggerated fenders, futuristic body kit, added or removed parts, different wheels, oversized wheels, changed ride height, altered headlights, altered taillights, extra lights, extra wheels, distorted proportions, warped bodywork, asymmetrical vehicle, duplicated vehicle parts, floating car, invented license plate text, plastic paint, fake chrome finish, painted-on neon outlines, lighting inconsistent with time of day, weather inconsistent with road surface, excessive bloom, excessive lens flare, oversaturated colors, blown highlights, crushed shadows, excessive fog, obscured vehicle, unrealistic reflections, mirror-like flooded road, cartoon, anime, illustration, obvious CGI, video game render, low resolution, excessive sharpening, garbled text, fake logos, watermark
+different car model, redesigned vehicle, altered silhouette, changed camera angle, different viewpoint, changed body color, color shift, modified body panels, exaggerated fenders, futuristic body kit, added or removed parts, different wheels, oversized wheels, changed ride height, altered headlights, altered taillights, extra lights, extra wheels, distorted proportions, warped bodywork, asymmetrical vehicle, duplicated vehicle parts, floating car, invented license plate text, readable license plate, plate numbers, characters on license plate, faint traces of plate text, blurred or pixelated license plate, mosaic license plate, missing license plate, changed plate color, flat pasted-on plate, plastic paint, fake chrome finish, painted-on neon outlines, lighting inconsistent with time of day, weather inconsistent with road surface, excessive bloom, excessive lens flare, oversaturated colors, blown highlights, crushed shadows, excessive fog, obscured vehicle, unrealistic reflections, mirror-like flooded road, partially out-of-focus car, blurry wheels, soft headlights, focus on background instead of car, cutout-style background blur, halo around car, tilt-shift effect, miniature effect, onion-ring bokeh, swirly bokeh, background brighter than the car, background competing with the car, poles or signs growing out of the car, wide-angle distortion, stretched front end, converging building lines, floating reflections, blown-out paint highlights, glossy tires, orange peel, swirl marks, dull flat paint, cartoon, anime, illustration, obvious CGI, video game render, low resolution, excessive sharpening, garbled text, fake logos, watermark
