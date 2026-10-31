@@ -16,23 +16,31 @@ A. The vehicle — identify its defining characteristics:
 - Wheels and tires: design, size, color, and how they fill the wheel arches.
 - Any aftermarket or personal modifications: custom wheels, lowered or raised suspension, spoilers, aero parts, stickers, roof racks, or accessories.
 - The camera viewpoint: front, rear, side, front three-quarter, or rear three-quarter, plus camera height and distance.
+- The car's heading relative to the road: which lane the car is in, and that its body is parallel to the lane lines and road edges (or at what angle, if it is clearly turning or parked at an angle).
+- The road geometry: the direction the road runs, whether it is straight or curved, and where the road edges and lane lines converge in the distance (the vanishing point).
+- Camera tilt: whether the photo is tilted (a Dutch angle), judged from the horizon, road edges, lane lines, and vertical lines such as trees, poles, and buildings. A tilt of the whole frame is a property of the camera, not of the car, and will be corrected in step 6.
 
-Treat everything identified here as fixed facts that must be carried into the final image unchanged.
+Treat everything identified here, except the camera tilt, as fixed facts that must be carried into the final image unchanged.
 
 B. The scene — identify:
 
-- Location type: e.g. city street, highway, parking lot, residential road, mountain road, coastal road, countryside, garage.
+- Location type: e.g. city street, highway, parking lot, residential road, tree-lined avenue, forest road, mountain road, coastal road, countryside, garage.
 - Weather: e.g. clear, cloudy, rain, after rain, fog, snow.
 - Time of day: e.g. morning, daytime, golden hour, dusk, blue hour, night.
 
+How to judge weather and time of day:
+
+- Judge the weather from the sky, the shadows, and the road surface. Choose rain or after rain only if the reference photograph clearly shows falling rain, a wet road, puddles, or water drops on the car. A bright or white sky with a dry road is clear or cloudy, never rain.
+- Judge the time of day from the brightness of the sky and the surroundings, not from whether lights are on. If the sky is still bright, treat it as daytime or dusk even when streetlights or the car's headlights are switched on.
+
 SCENE SETTINGS RULE:
-If the user's message specifies a location, weather, or time of day, use what the user specified. For anything not specified, use the values identified in the reference photograph. Use these scene settings as the base for the NEO-TOKYO environment described below, and apply all of the following instructions to this specific vehicle and scene.
+If the user's message specifies a location, weather, or time of day, use what the user specified. For anything not specified, use the values identified in the reference photograph. Never change an unspecified setting to fit the cyberpunk mood: do not turn a dry scene into rain, or a daytime or dusk scene into night. Use these scene settings as the base for the NEO-TOKYO environment described below, and apply all of the following instructions to this specific vehicle and scene.
 
 1. STRICT VEHICLE PRESERVATION
 
 The car from the reference photograph is the hero subject. Preserve its recognizable identity, exact body proportions, silhouette, body panels, lights, glass, mirrors, door handles, wheels, badges, original body color, and any modifications exactly as they appear in the photo.
 
-Preserve the original viewpoint, viewing direction, camera perspective, apparent vehicle size, and overall vehicle placement in the frame. Maintain the original relationship between the visible faces of the car, the roofline, and the wheels.
+Preserve the original viewpoint, viewing direction, camera perspective, apparent vehicle size, and overall vehicle placement in the frame. The only exception is camera tilt, which is corrected to level as described in step 6. Maintain the original relationship between the visible faces of the car, the roofline, and the wheels.
 
 Do not redesign, restyle, enlarge, lower, raise, stretch, or otherwise modify the vehicle. Do not add futuristic body kits, aerodynamic parts, glowing body strips, extra lights, or different wheels, and do not remove anything that is on the car in the photo. The result must remain unmistakably the same real car.
 
@@ -63,7 +71,7 @@ Give each material its own surface response:
 - Tires: matte black rubber with subtle sidewall detail, never glossy.
 - Plastic trim and rubber seals: satin or matte, clearly less reflective than the paint.
 
-In rain or after rain, add realistic small water beads on the upper body surfaces and glass without hiding the paint or design details.
+Only when the weather is rain or after rain, add realistic small water beads on the upper body surfaces and glass without hiding the paint or design details. In clear or cloudy weather, keep the car completely dry.
 
 The paint should look expensive, polished, and optically realistic — never plastic, liquid, chrome-like, or artificially airbrushed.
 
@@ -74,7 +82,15 @@ Replace the original background with an elaborate but believable near-future Jap
 - City street or highway → massive elevated expressways crossing at multiple levels, dense high-rise towers, and overhead road infrastructure.
 - Parking lot or garage → a futuristic multi-level structure or open lot surrounded by the near-future skyline.
 - Residential road → a compact Japanese neighborhood with advanced infrastructure, illuminated vending machines, and towers rising behind it.
-- Mountain, coastal, or countryside road → the natural landscape preserved, with a futuristic road, tunnels, bridges, or barriers, and a distant NEO-TOKYO skyline or megastructures on the horizon.
+- Natural road (tree-lined avenue, forest, mountain, coastal, or countryside road) → a road through nature that leads toward NEO-TOKYO. See NATURAL ROADS below.
+
+NATURAL ROADS:
+When the location is a road through nature, do not replace it with a city street. Keep the natural setting around the car, and make the scene feel like a near-future road heading toward NEO-TOKYO:
+
+- Keep the character of the original nature: the same kind of trees, grass, hills, or coastline, and the same layout as the reference. A tree-lined avenue keeps its rows of trees on both sides of the road, forming the same corridor.
+- Turn the road itself into near-future infrastructure: a precisely finished road surface with fine embedded guide lights along the lane edges, sleek metallic barriers, slim futuristic streetlights, and an overhead gantry with authentic-looking Japanese direction signs pointing toward Tokyo.
+- At the far end of the road, where it disappears into the distance, show the NEO-TOKYO skyline and megastructures rising beyond the trees or the horizon, softened by atmospheric haze, so the road clearly leads toward the city.
+- Keep the futuristic elements restrained and integrated into the landscape. Nature remains the main surrounding, and the city is the destination in the distance.
 
 Across all locations, use NEO-TOKYO design language: dark industrial steel structures, concrete pillars, metallic safety barriers, utility conduits, futuristic traffic-control equipment, and layered architecture that creates a convincing sense of scale and depth.
 
@@ -91,7 +107,10 @@ Match the overall lighting to the time of day and weather from the scene setting
 - Night or blue hour: a carefully controlled neon environment. Warm amber and deep orange practical lights from elevated roads, industrial fixtures, and streetlights, combined with cool cyan and blue neon from signage, architectural edges, and futuristic infrastructure.
 - Dusk or golden hour: low warm sunlight or afterglow as the key light, with neon signage and architectural lighting beginning to glow in cyan and blue.
 - Daytime or morning: natural daylight as the key light, with clean reflections from glass and steel towers, and restrained illuminated signage and holographic displays that remain visible without dominating.
-- Overcast, rain, fog, or snow: soft diffused light from the sky, with neon and artificial lights glowing through the atmosphere appropriate to the conditions.
+- Cloudy or overcast: soft diffused daylight from a bright sky, with a dry scene and restrained signage and architectural lighting. No rain.
+- Rain, fog, or snow: soft diffused light from the sky, with neon and artificial lights glowing through the atmosphere appropriate to the conditions.
+
+Use the neon-dominated look only when the time of day is night or blue hour.
 
 Retain the car's own lights visible from the original viewpoint (red taillights from the rear, headlights from the front) as a distinctive visual accent, in the state that suits the scene.
 
@@ -112,6 +131,8 @@ Render the road surface beneath the vehicle according to the weather from the sc
 - Snow: realistic snow or slush on and around the road, consistent with the conditions.
 - Fog: damp surface with soft light diffusion.
 
+Do not add puddles, standing water, wet reflections, rain streaks, or water drops unless the weather is rain or after rain.
+
 Reflections on the road should extend naturally into the scene according to perspective and surface irregularities.
 
 Add atmospheric depth appropriate to the weather and time of day, allowing light sources and structures to recede gradually into the background.
@@ -121,6 +142,23 @@ Keep the air around the car relatively clear. Never let fog, smoke, rain streaks
 6. CAMERA, LENS, FRAMING, AND VISUAL HIERARCHY
 
 Use the original photograph as the composition reference. Keep the same viewpoint identified in step 0 without switching to a different angle.
+
+LEVEL THE IMAGE:
+The final image must be level. If the reference photograph is tilted, rotate the whole scene, the car together with its road, to correct the tilt:
+
+- The horizon is level, and vertical lines such as trees, poles, and buildings are vertical.
+- The car stands upright on a level road, with all visible wheels resting naturally on the ground. Do not lean the car or keep it tilted in a level scene.
+- Crop the leveled image to the final frame. Where the rotation or the new 16:9 frame leaves areas with no picture, such as corners or the left and right sides of a vertical photo, fill them by naturally extending the background, so the frame is completely filled with no empty corners, borders, or visible seams.
+- Never invent missing parts of the car. Keep the whole car inside the frame.
+- Leveling is only a rotation of the whole frame. It must not turn the car left or right relative to the road.
+
+ALIGN THE CAR WITH THE ROAD:
+The car and the road must form one consistent scene, exactly as in the reference photograph:
+
+- Rebuild the road with the same direction and geometry identified in step 0: straight or curved, running the same way through the frame, with the same vanishing point relative to the car (after leveling).
+- The car sits inside its lane with its body parallel to the lane lines and road edges, pointing along the direction of travel, unless the reference clearly shows it at an angle.
+- The car's body lines, the lane lines, the road edges, the barriers, and rows of streetlights or trees all converge toward the same vanishing point, so the car clearly travels along the road, not across it.
+- Build the new background around the car's existing heading. Never rotate the car to fit a newly designed road, and never draw a road that runs diagonally across the car's direction.
 
 Shoot as if with a full-frame camera and a high-quality prime lens whose focal length matches the perspective of the original photograph, typically in the 35–85mm range. Keep the same camera height and distance as in the original. Keep vertical lines of buildings and pillars straight. Avoid wide-angle distortion that stretches the front of the car, and avoid extreme telephoto compression that flattens it.
 
@@ -166,4 +204,4 @@ No illustration aesthetics. No obvious CGI appearance. No artificial vehicle red
 
 --
 
-different car model, redesigned vehicle, altered silhouette, changed camera angle, different viewpoint, changed body color, color shift, modified body panels, exaggerated fenders, futuristic body kit, added or removed parts, different wheels, oversized wheels, changed ride height, altered headlights, altered taillights, extra lights, extra wheels, distorted proportions, warped bodywork, asymmetrical vehicle, duplicated vehicle parts, floating car, invented license plate text, readable license plate, plate numbers, characters on license plate, faint traces of plate text, blurred or pixelated license plate, mosaic license plate, missing license plate, changed plate color, flat pasted-on plate, plastic paint, fake chrome finish, painted-on neon outlines, lighting inconsistent with time of day, weather inconsistent with road surface, excessive bloom, excessive lens flare, oversaturated colors, blown highlights, crushed shadows, excessive fog, obscured vehicle, unrealistic reflections, mirror-like flooded road, partially out-of-focus car, blurry wheels, soft headlights, focus on background instead of car, cutout-style background blur, halo around car, tilt-shift effect, miniature effect, onion-ring bokeh, swirly bokeh, background brighter than the car, background competing with the car, poles or signs growing out of the car, wide-angle distortion, stretched front end, converging building lines, floating reflections, blown-out paint highlights, glossy tires, orange peel, swirl marks, dull flat paint, cartoon, anime, illustration, obvious CGI, video game render, low resolution, excessive sharpening, garbled text, fake logos, watermark
+different car model, redesigned vehicle, altered silhouette, changed camera angle, different viewpoint, changed body color, color shift, modified body panels, exaggerated fenders, futuristic body kit, added or removed parts, different wheels, oversized wheels, changed ride height, altered headlights, altered taillights, extra lights, extra wheels, distorted proportions, warped bodywork, asymmetrical vehicle, duplicated vehicle parts, floating car, invented license plate text, readable license plate, plate numbers, characters on license plate, faint traces of plate text, blurred or pixelated license plate, mosaic license plate, missing license plate, changed plate color, flat pasted-on plate, plastic paint, fake chrome finish, painted-on neon outlines, lighting inconsistent with time of day, weather inconsistent with road surface, rain not in the reference, wet road in dry weather, puddles in clear weather, water drops on a dry car, night scene from a daytime or dusk photo, city street replacing a natural road, missing trees from a tree-lined road, car misaligned with the road, car angled across the lane, road running diagonally to the car, lane lines not parallel to the car, inconsistent vanishing points, car rotated to a different heading, tilted car, leaning car, car tilted against a level background, tilted horizon, Dutch angle, empty corners, blank borders, visible seams from background extension, excessive bloom, excessive lens flare, oversaturated colors, blown highlights, crushed shadows, excessive fog, obscured vehicle, unrealistic reflections, mirror-like flooded road, partially out-of-focus car, blurry wheels, soft headlights, focus on background instead of car, cutout-style background blur, halo around car, tilt-shift effect, miniature effect, onion-ring bokeh, swirly bokeh, background brighter than the car, background competing with the car, poles or signs growing out of the car, wide-angle distortion, stretched front end, converging building lines, floating reflections, blown-out paint highlights, glossy tires, orange peel, swirl marks, dull flat paint, cartoon, anime, illustration, obvious CGI, video game render, low resolution, excessive sharpening, garbled text, fake logos, watermark

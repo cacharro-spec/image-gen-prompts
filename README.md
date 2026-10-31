@@ -58,13 +58,21 @@ NEO-TOKYO のプロンプトは特定の車種向けではありません。最�
 
 ### 場所・天候・時間帯の決まり方（NEO-TOKYO）
 
-指定しなければ、元写真から場所の種類（街中・高速道路・駐車場・山道・海沿いなど）、天候、時間帯を読み取り、それを近未来の NEO-TOKYO 風に作り変えます。昼の写真なら昼の NEO-TOKYO、雨の写真なら濡れた路面になります。
+指定しなければ、元写真から場所の種類（街中・高速道路・駐車場・並木道・森の道・山道・海沿いなど）、天候、時間帯を読み取り、それを近未来の NEO-TOKYO 風に作り変えます。昼の写真なら昼の NEO-TOKYO、雨の写真なら濡れた路面になります。
+
+- **天候**：雨にするのは、元写真に雨・濡れた路面・水たまり・車の水滴が写っているときだけです。晴れや曇りの写真では、車も路面も乾いたままにします。
+- **時間帯**：空の明るさで判定します。街灯やヘッドライトが点いていても、空が明るければ昼か夕方として扱い、夜には変えません。ネオンが主役の雰囲気になるのは夜とブルーアワーだけです。
+- **自然の中の道**：並木道・森・山・海沿い・田舎の道は、都市の道路に置き換えません。元の木々や景色を残したまま、道路を近未来の設備（埋め込み誘導灯、金属製のガードレール、未来的な街灯、東京方面の日本語標識）にし、道の先に NEO-TOKYO の街並みが霞んで見える「東京へ向かう道」にします。
 
 変えたい項目があるときは、プロンプトの後ろに 1 行足して送ります。指定した項目だけが変わり、残りは元写真に合わせます。
 
 ```
 Location: waterfront bayshore expressway / Weather: after rain / Time of day: night
 ```
+
+### 傾いた写真の扱い（NEO-TOKYO）
+
+カメラを傾けて撮った写真は、車と道路をまとめて回転させて水平に直します。回転や 16:9 への切り抜きで絵が足りなくなる部分（四隅や、縦長写真の左右）は、背景を自然に広げて埋めます。車の欠けた部分は作り足さず、車全体を画面に収めます。
 
 ### プロンプトの追加方法
 
@@ -128,13 +136,21 @@ The NEO-TOKYO prompt is not tied to a specific car model. It first has ChatGPT i
 
 ### How location, weather, and time of day are chosen (NEO-TOKYO)
 
-By default, the prompt reads the location type (city street, highway, parking lot, mountain road, coastal road, etc.), weather, and time of day from the original photo and reinterprets them as NEO-TOKYO. A daytime photo becomes a daytime NEO-TOKYO; a rainy photo gets a wet road.
+By default, the prompt reads the location type (city street, highway, parking lot, tree-lined avenue, forest road, mountain road, coastal road, etc.), weather, and time of day from the original photo and reinterprets them as NEO-TOKYO. A daytime photo becomes a daytime NEO-TOKYO; a rainy photo gets a wet road.
+
+- **Weather**: rain is used only when the original photo shows rain, a wet road, puddles, or water drops on the car. Clear or cloudy photos keep the car and the road dry.
+- **Time of day**: judged from the brightness of the sky. If the sky is bright, the scene stays daytime or dusk even when streetlights or headlights are on, and is never turned into night. The neon-dominated look is used only at night and blue hour.
+- **Roads through nature**: tree-lined avenues and forest, mountain, coastal, or countryside roads are not replaced with city streets. The original trees and scenery are kept, the road becomes near-future infrastructure (embedded guide lights, metallic barriers, futuristic streetlights, Japanese signs pointing toward Tokyo), and the NEO-TOKYO skyline appears in the haze at the end of the road, like a road heading toward the city.
 
 To change any of them, add one line after the prompt. Only the items you specify change; the rest follow the original photo.
 
 ```
 Location: waterfront bayshore expressway / Weather: after rain / Time of day: night
 ```
+
+### Tilted photos (NEO-TOKYO)
+
+If the photo was taken with a tilted camera, the car and the road are rotated together to make the image level. Areas left without picture by the rotation or the 16:9 crop (corners, or the left and right sides of a vertical photo) are filled by naturally extending the background. Missing parts of the car are never invented, and the whole car is kept in the frame.
 
 ### Adding a prompt
 
