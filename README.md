@@ -74,6 +74,10 @@ Location: waterfront bayshore expressway / Weather: after rain / Time of day: ni
 
 カメラを傾けて撮った写真は、車と道路をまとめて回転させて水平に直します。回転や 16:9 への切り抜きで絵が足りなくなる部分（四隅や、縦長写真の左右）は、背景を自然に広げて埋めます。車の欠けた部分は作り足さず、車全体を画面に収めます。
 
+車は必ず道路と同じ角度だけ回転させます。背景だけ水平にして車が元の傾きのまま残る、といったズレを防ぐため、元写真で「車の横方向の線（左右のライト・バンパー下端・ルーフ・左右タイヤの接地点）が路面と平行か」「車線のどこにいるか」を読み取り、生成後も同じ関係になっているかを最後にチェック項目（`9. FINAL CONSISTENCY CHECK`）で確認させています。
+
+回転は車を 1 枚の写真のように丸ごと回す扱いにし、ルーフだけ水平でフロント面は傾いたまま、といった部分ごとの歪みを防ぎます。縦長写真を 16:9 にするときも車を横に引き伸ばさず、車の縦横比やライト・グリルの大きさは元写真のまま、増えた幅は背景で埋めます。
+
 ### プロンプトの追加方法
 
 1. `pronpts/` 配下にテーマ名のフォルダを作る
@@ -151,6 +155,10 @@ Location: waterfront bayshore expressway / Weather: after rain / Time of day: ni
 ### Tilted photos (NEO-TOKYO)
 
 If the photo was taken with a tilted camera, the car and the road are rotated together to make the image level. Areas left without picture by the rotation or the 16:9 crop (corners, or the left and right sides of a vertical photo) are filled by naturally extending the background. Missing parts of the car are never invented, and the whole car is kept in the frame.
+
+The car is always rotated by the same angle as the road. To prevent mismatches such as a leveled background with the car still tilted, the prompt reads from the original photo whether the car's crosswise lines (both lights, the bumper's bottom edge, the roof, and the left and right tire contact points) are parallel to the road surface and where the car sits in its lane, then has the model verify the same relationship in a final checklist (`9. FINAL CONSISTENCY CHECK`) before outputting the image.
+
+The car is rotated as one rigid object, like rotating the photo itself, to prevent partial distortions such as a leveled roof with a front face that keeps the original slope. When a vertical photo becomes 16:9, the car is not stretched: its width-to-height ratio and the size of its lights and grille stay as in the original, and the extra width is filled with background.
 
 ### Adding a prompt
 
